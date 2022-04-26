@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Оформлення замовлення</title>
+
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/norm.css">
+	
+</head>
+<body>
+
+	<header class="top dis-flex aling-cent just-evenly">
+		<div class="top dis-flex aling-cent just-evenly">
+
+			<div class="hamb-menu dis-flex ">
+
+				<input id="menu__toggle" type="checkbox" />
+				<label class="menu-b dis-flex aling-cent just-cent" for="menu__toggle">
+
+					<img class="burg-m" src="img/menu1.png" alt="1">
+
+					<img class="burg-m1" src="img/cross.png" alt="2">
+
+				</label>
+
+				<ul class="menu__box">
+					<li><a class="menu__item" href="index.html">Головна</a></li>
+					<li><a class="menu__item" href="#">Сети</a></li>
+					<li><a class="menu__item" href="#">Роли</a></li>
+					<li><a class="menu__item" href="#">Напої</a></li>
+					<li><a class="menu__item" href="#">Меню</a></li> 
+				</ul>
+			</div>
+
+			<div class="logo mlr25">
+				<a href="index.html"><img  src="img/jojo.png" alt="jojo"></a>
+			</div>
+
+			<ul class="menu dis-flex just-cont p0">
+				<li>
+					<a class="dec-non font25 menu__item1" href="#">Сети </a>
+				</li>
+				<li>
+					<a class="dec-non font25 menu__item1" href="#">Роли </a>
+				</li>
+				<li >
+					<a class="dec-non font25 menu__item1" href="#">Напої</a>
+				</li>
+				<li>
+					<a class="dec-non font25 menu__item1" href="#">Меню </a>
+				</li>
+			</ul>
+
+			<div class="buck dis-flex just-cent">
+				<a href="#">
+					<div class="buck1">
+						<img src="img/basket.png" alt="basket">
+					</div>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="sec1">
+			<div class="opac"></div>
+			<video class="back_video" autoplay muted loop preload="auto">
+				<source src="vdo/sushi1.mp4" type="video/mp4"></source>
+			</video>
+
+
+			<div class="form_cont">
+				<div class="sec1_text">
+					<div >
+						<a class="dec-non1" href="index.html">Головна <i >/</i></a>
+						<span>Оформлення замовлення</span>
+					</div>
+					<h1 class="colfff">Оформлення замовлення</h1>
+				</div>
+
+
+				<form action="" class="form">
+					<div class="dis-flex1 row-gap">
+						<label for="name">Ім'я*</label>
+						<input id="name" type="text" name="name" class="text_item">
+					</div>
+
+					<div class="dis-flex1 row-gap">
+						<label for="phone">Телефон*</label>
+						<input id="phone" type="tel" name="phone" class="text_item">
+					</div>
+					<div class="dis-flex1 row-gap">
+						<label for="address">Назва вулиці*</label>
+						<input id="address" type="text" name="address" class="text_item">
+					</div>
+					<div class="dis-flex1 row-gap">
+						<label for="entrance">Під'їзд*</label>
+						<input id="entrance" type="number" name="entrance" class="text_item">
+					</div>
+
+					<div class="form-radio">
+						<label for="conf" class="form-radio">
+							Подзвонити для підтвердження замовлення
+							
+							<input type="radio" id="conf" name="conf" >
+							<span>так</span>
+						</label>
+						<label for="conf1" class="form-radio">
+							
+							<input type="radio" id="conf1"name="conf" class="form-radio">
+							<span>ні</span>
+						</label>
+					</div>
+
+					<button class="form-button">Підтвердити замовлення</button>
+
+				</form>
+
+			</div>
+		</section>
+	</main>
+
+	<div class="footer dis-flex aling-cent just-evenly flex">
+
+		<a href="index.html"><img class="log pt15" src="img/jojo.png" alt="jojo"></a>
+
+		<div class=" nav dis-flex just-cent flex1">
+			<div class=" nav1 pt15 line">
+				<h2 class="m0 colfff tex-cen">Навігація:</h2>
+				<ul class=" p0 mb0 ">
+					<a class="dec-non tex-cen" href="#"><li class="font15">Меню</li></a>
+					<a class="dec-non tex-cen" href="#"><li class="font15">Сети</li></a>
+					<a class="dec-non tex-cen" href="#"><li class="font15">Роли</li></a>
+					<a class="dec-non tex-cen" href="#"><li class="font15">Напої</li></a>
+				</ul>
+			</div>
+
+			<div class=" nav1 pt15 line">
+				<h2 class="m0 colfff tex-cen">Час роботи:</h2>
+				<p class="font15 dec-non tex-cen">з 10:00 до 22:00 <br> без вихідних</p>
+
+			</div>
+			<br>
+			<div class=" nav1 pt15 line">
+				<h2 class="m0 colfff tex-cen">Контакти:</h2>
+				<ul class=" p0 mb0">
+					<a class="dec-non tex-cen" href="tel:+380675432144"><li class="font15">+38 (067) 543-21-44</li></a>
+					<a class="dec-non tex-cen" href="tel:+380637544345"><li class="font15">+38 (063) 754-43-45</li></a>
+					<a class="dec-non tex-cen" href="mailto:jojosushi@gmail.com"><li class="font15">jojosushi@gmail.com</li></a>
+				</ul>
+			</div>
+			<div class=" nav1 pt15 ">
+				<h2 class="m0 colfff tex-cen">Ми в соц. мережах:</h2>
+				<div class="dis-flex just-evenly mt16">
+					<a href="#" target="_blank" ><img class="soc" src="img/instagram.png" alt="jojo"></a>
+					<a href="#"><img class="soc" src="img/facebook.png" alt="jojo"></a>
+					<a href="#"><img class="soc" src="img/telegram.png" alt="jojo"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

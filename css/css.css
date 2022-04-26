@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif;
+} 
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.dis-none{
+	display: none;
+}
+
+.dis-flex{
+	display: flex;
+}
+
+.dis-flex1{
+	display: flex;
+	flex-direction: column;
+}
+
+.aling-cent{
+	align-items: center;
+}
+
+.just-cent{
+	justify-content: center;
+}
+
+.just-cont{
+	justify-content: space-between;
+}
+
+.just-around{
+	justify-content: space-around;
+}
+
+.just-evenly{
+	justify-content: space-evenly;
+}
+
+.posabs{
+	position:absolute;
+}
+
+.posrel{
+	position:relative;
+}
+
+.colfff{
+	color: #fff;
+}
+
+.back440{
+	background: #440440;
+}
+
+.font12{
+	font-size: 12px;
+}
+
+.font15{
+	font-size: 15px;
+} 
+
+.font20{
+	font-size: 20px;
+}
+
+.font25{
+	font-size: 25px;
+}
+
+
+/*бургер*/
+
+.hamb-menu{
+  display: none;
+  width: 70px;
+  height: 70px;
+  padding-left: 50px;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.burg-m{
+  width: 70px;
+  height: 70px;
+   position: absolute;
+   z-index: 5;
+}
+
+.burg-m1{
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: absolute;
+  z-index: 6;
+  left: 20px;
+	top: 20px;
+}
+
+.menu__box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  top: 0;
+  left: -100%;
+  width: 320px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #444;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, .2);
+}
+
+.menu__item {
+  display: block;
+  padding: 25px 0;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+.menu__item1 {
+  padding: 15px 0;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px #8900AD;
+  color: #000 ;
+  border-radius: 15px;
+  padding: 0 10px;
+  border: solid 2px #000;
+}
+
+.menu__item1:hover {
+  background-color: #CFD8DC;
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px #8900AD;
+  color: #000 ;
+  border-radius: 15px;
+  padding: 0 10px;
+  border: solid 2px #000;
+}
+
+#menu__toggle:checked ~ .menu-b > .burg-m{
+    display: none;
+}
+#menu__toggle:checked ~ .menu-b > .burg-m1{
+    display: block;
+}
+
+#menu__toggle:checked ~ .menu__box {
+  left: 0;
+}
+
+.menu__box {
+  transition-duration: .5s;
+}
+
+.menu__item{
+  transition-duration: .5s;
+}
+
+.menu__item1{
+  transition-duration: .5s;
+}
+
+/*бургер*/
+.b10l10{
+	bottom: 10px;
+	left: 10px;
+}
+
+li{
+	list-style: none;
+}
+
+.w100{
+	width: 100%;
+}
+
+.goltext{
+	max-width: 600px;
+	min-height: 60px;
+	border-radius: 50px;
+	background-color: #444;
+
+}
+
+.textcent{
+	text-align: center;
+}
+
+.top{
+	height: 120px;
+	width: 100%;
+	background: #444;
+}
+
+.logo{
+	width: 180px;
+}
+
+.logo img{
+	width: 180px;
+}
+
+.log{
+	width: 180px;
+	height: 70px;
+}
+
+.buck{
+	width: 205px;
+	height: 70px;
+}
+
+.menu{
+	font-size: 20px;
+	width: 50%;
+}
+
+.dec-non{
+	text-decoration: none;
+	color: #fff
+}
+
+.buck1{
+	width: 70px;
+	height: 70px;
+}
+
+.buck1 img{
+	width: 100%;
+}
+
+.m0{
+	margin: 0;
+}
+
+.p0{
+	padding: 0;
+}
+
+.p15{
+	padding: 15px;
+}
+.pt5{
+	padding-top: 5px;
+}
+
+.pt15{
+	padding: 15px 0;
+}
+
+.ptb25{
+	padding: 25px 0;
+}
+
+.prl25{
+	padding: 25px 25px ;
+}
+
+.ml10{
+	margin-left: 10px;
+}
+
+.mlr25{
+	margin: 0 25px;
+}
+
+.ml40{
+	margin: 10px 0 10px 40px;
+}
+
+.mbt10{
+	margin: 10px 0;
+}
+
+.mt16{
+	margin-top: 16px;
+}
+
+.mb0{
+	margin-bottom: 0;
+}
+
+.box{
+	width: 187px;
+	height: 187px;
+	border-radius: 0 15% 0 15%;
+}
+
+.box-1{
+	width: 62px;
+}
+
+.box-2{
+	width: 282px;
+}
+
+.soc{
+	width: 33px;
+	height: 33px;
+}
+
+.sushi{
+	width: 187px;
+}
+.zero{
+	width: 40px;
+	height: 40px;
+}
+
+.zero1{
+	width: 35px;
+	height: 35px;
+	background: #C4C4C4;
+	border-radius: 50%;
+}
+
+.arow{
+	width: 30px;
+	height: 30px;
+}
+
+.backf{
+	background: $44044;
+} 
+
+.bodi{
+	min-height: 800px;
+	width: 100%; 
+	background: #111;
+	padding-top: 25px;
+}
+
+.prop{
+	min-height: 400px;
+	width: 100%;
+	background: #444;
+	padding: 25px 0;
+}
+
+.libot{
+	margin-bottom: 25px;
+}
+
+.textpn{
+	width: 300px;
+}
+
+.pronas{
+	min-height: 530px;
+	width: 100%;
+	background: #111;
+	padding: 25px 0;
+	
+}
+
+.prop1{
+	width: 300px;
+	
+}
+
+.prop1 img{
+	width: 100%;
+	border-radius: 0 15% 0 15%;
+}
+
+.jojo{width: 300px;}
+
+.jojo img{width: 100%;}
+
+.tpronas{width: 300px;}
+
+.footer{
+	min-height: 150px;
+	width: 100%;
+	background: #444;
+}
+
+.nav{width: 1040px;}
+
+.nav1{width: 260px;}
+

@@ -1,0 +1,124 @@
+@media(max-width: 768px){
+	 
+	.hamb-menu{
+    display: flex;
+  	}
+
+	.menu{
+		display: none;
+	}
+
+	.nav1{
+		padding: 25px 25px;
+	}
+
+	.sec1_text h1{
+	font-size: 25px;
+	}
+
+	.sec1_prize__cont{
+	height: 150px;
+	}
+	.form{
+		width: 400px;
+	}
+	.text_item{
+		width: 380px;
+	}
+}
+
+@media(max-width: 520px){
+
+	.hamb-menu{;
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+  	}
+
+	.burg-m{
+		width: 50px;
+		height: 50px;
+	}
+
+	.burg-m1{
+		width: 30px;
+		height: 30px;
+		left: 25px;
+		top: 25px;
+	}
+
+	.menu__item{
+		font-size: 20px;
+		padding: 10px 0;
+	}
+
+	.menu__box{
+		height: 250px;
+	}
+
+	.gtext{
+		font-size: 17px;
+	}
+
+	.top{
+		height: 70px;
+	}
+
+	.tex-cen{
+		text-align: center;
+	}
+
+	.logo{
+		width: 130px;
+		margin: 0;
+	}
+
+	.logo img{
+		width: 130px;
+		height: 50px
+	}
+
+	.buck{
+		width: 50px;
+		height: 50px;
+	}
+
+	.log{
+		padding: 25px 0;
+	}
+
+	.prl25{
+		padding: 25px 50px 25px 50px;
+	}
+
+	.buck1{
+		width: 50px;
+		height: 50px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.line{
+		border-bottom: solid 2px #fff;
+	}
+
+	.footer{
+		padding: 25px 0;
+	}
+
+	.form{
+		width: 250px;
+	}
+	.text_item{
+		width: 230px;
+	}
+	.form_cont h1{
+		font-size: 20px;
+	}
+	.form label,
+	.form button{
+		font-size: 15px;
+	}
+}
