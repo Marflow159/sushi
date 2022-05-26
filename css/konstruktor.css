@@ -4,7 +4,7 @@
 	transition-duration: 0.5s;
 }
 .sec1{
-	min-height: 667px;
+	height: 667px;
 	
 	background: url(../img/back_kons.jpeg);
 	background-position: center;
