@@ -368,6 +368,7 @@ li{
 
 .textpn{
 	width: 300px;
+	grid-row-gap: 15px;
 }
 
 .pronas{
